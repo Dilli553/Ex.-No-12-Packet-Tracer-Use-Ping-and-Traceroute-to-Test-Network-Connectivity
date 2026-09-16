@@ -1,5 +1,5 @@
 # Ex. No: 12 – Packet Tracer: Use Ping and Traceroute to Test Network Connectivity
-# Date: ______________________
+# Date:28.08.2026
 ________________________________________<br>
 # Objective
 To test and restore IPv4 and IPv6 network connectivity using diagnostic commands (ping and tracert), identify faults, and verify proper routing between end devices in a dual-stack (IPv4 + IPv6) topology.<br>
@@ -17,6 +17,8 @@ ________________________________________<br>
 ________________________________________<br>
 # Network Topology Diagram
 (Insert your Packet Tracer screenshot showing R1 ↔ R2 ↔ R3 with PCs PC1–PC4 connected.)<br>
+<img width="1917" height="1078" alt="Screenshot 2026-09-16 212548" src="https://github.com/user-attachments/assets/98698dd6-77b2-42cf-8e56-ad5a1fb60123" />
+
 ________________________________________<br>
 Addressing Table<br>
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -119,8 +121,16 @@ show ipv6 interface brief	Verify IPv6 interface status<br>
 ________________________________________
 # Output (Attach Screenshots)
 • Command outputs (ipconfig, ipv6config, ping, tracert) for PCs.<br>
+<img width="1917" height="1078" alt="Screenshot 2026-09-16 212548" src="https://github.com/user-attachments/assets/e382278f-de53-400e-be09-30e79a822827" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/37f98563-96fb-4e77-b545-51276db3425b" />
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/40291b63-3e32-4d3f-b397-009d64974830" />
+
 • Router interface and routing tables.<br>
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/b9649904-1a8f-4abc-8075-5de1f7ba6bb3" />
+
 • Successful ping results after fixes.<br>
+<img width="952" height="847" alt="image" src="https://github.com/user-attachments/assets/b8601167-b88a-43e9-a22d-dcd6fbcd933e" />
+
 ________________________________________<br>
 # Result
 IPv4 and IPv6 connectivity issues were diagnosed and resolved using ping and tracert commands. Routers and PCs achieved full dual-stack communication after correcting configuration errors, confirming network restoration and routing accuracy.<br>
